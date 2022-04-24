@@ -21,11 +21,11 @@ In this project you will be given a set of requirements and must design a databa
 
 ### Files to Complete
 
-1. `package.json`
-2. `index.js`
-3. `api/server.js`
-4. `model.js` inside `api/project`, `api/resource` and `api/task`
-5. `router.js` inside `api/project`, `api/resource` and `api/task`
+1. [X] `package.json`     
+2. [X] `index.js`            
+3. [X] `api/server.js`    
+4. [ ] `model.js` inside `api/project`, `api/resource` and `api/task`
+5. [ ] `router.js` inside `api/project`, `api/resource` and `api/task`
 6. migration file(s)
 7. seed file(s) **optional**
 
