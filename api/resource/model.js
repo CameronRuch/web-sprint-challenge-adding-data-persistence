@@ -13,7 +13,7 @@ const getById = (id) => {
 
 async function create(resource) {
     const [id] = await db('resources').insert(resource)
-    return getById(id)
+    return db('resources').where('resource_id', id).first()
 } 
 
 module.exports = {
